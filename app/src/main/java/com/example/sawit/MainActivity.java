@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                     maxPos = i;
                 }
             }
-            String[] classes = {"Garis Kuning", "Bintik Daun", "Antraknosa", "Sehat"};
+            String[] classes = {"Antraknosa", "Bintik Daun", "Garis Kuning", "Sehat"};
             result.setText(classes[maxPos]);
 
             // Releases model resources if no longer used.
